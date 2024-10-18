@@ -1,0 +1,30 @@
+class Shape{
+  void draw(){
+    
+    print("shape is drawing");
+  } 
+}
+class Circle extends Shape{
+  
+  void draw(){
+    print("Drawing a circle");
+  }
+}  
+
+class Square extends Shape{
+  
+  void draw(){
+    print("Drawing a squre");
+  }
+}
+ void main(){
+   
+   Shape circle =Circle();
+   Shape square  =Square();
+   
+   circle.draw();
+   square.draw();
+ }
+   
+   
+  

@@ -1,0 +1,19 @@
+abstract class Shape {
+  void area();
+}
+
+class Circle extends Shape {
+  double radius;
+
+  Circle(this.radius);
+
+  @override
+  void area() {
+    print("The area of the circle is ${3.14 * radius * radius}");
+  }
+}
+
+void main() {
+  Shape myShape = Circle(5); 
+  myShape.area();             
+}

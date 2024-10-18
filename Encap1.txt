@@ -1,0 +1,19 @@
+class BankAccount{
+  double _balance =0;
+  
+  void deposit(){
+    _balance+ =amount; 
+  }
+  double getbBlance(){
+    
+    return _balance;
+  } 
+}
+
+void main(){
+  BankAccount account = BankAccount();
+  
+  account.deposit(1000);
+  print(account.getBalance());
+  
+}
