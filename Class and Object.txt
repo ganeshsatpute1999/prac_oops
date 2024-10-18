@@ -1,0 +1,18 @@
+class Car {
+  String color = "Red";
+  String speed ="0";
+  
+  void drive(){
+    print("car is running ");
+}
+}
+
+void main(){
+  
+  Car car = Car();
+  
+  print(car.color);
+  
+  car.drive();
+  
+}

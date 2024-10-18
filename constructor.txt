@@ -1,0 +1,19 @@
+class Car {
+  String color = "Red";
+  int speed = 0;  
+  Car(this.color,this.speed);
+ 
+  
+  void drive(){
+    print("The car $color is and car driving at $speed km/h ");
+}
+}
+
+
+void main(){
+  
+  Car car = Car("Blue",120);
+ 
+  car.drive();
+  
+}
